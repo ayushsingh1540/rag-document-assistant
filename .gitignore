@@ -4,6 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 
+# data
+data/
+
 # Virtual env
 venv/
 

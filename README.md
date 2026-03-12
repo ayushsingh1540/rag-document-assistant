@@ -40,6 +40,14 @@ Install dependencies:
 
 pip install -r requirements.txt
 
+Place your documents inside:
+
+data/raw_docs/
+
+Then run:
+
+python src/build_index.py
+
 Run Backend :
 
 uvicorn src.api:app --reload
